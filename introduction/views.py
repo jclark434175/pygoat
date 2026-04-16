@@ -1160,13 +1160,6 @@ USER_A7_LAB3 = {
     "User4":{"userid":"4", "username":"User4", "password": "6046bc3337728a60967a151ee584e4fd7c53740a49485ebdc38cac42a255f266"}
 }
 
-# USER_A7_LAB3 = {
-#     "User1":{"userid":"1", "username":"User1", "password": "Hash1"},
-#     "User2":{"userid":"2", "username":"User2", "password": "Hash2"},
-#     "User3":{"userid":"3", "username":"User3", "password": "Hash3"},
-#     "User4":{"userid":"4", "username":"User4", "password": "Hash4"}
-# }
-
 @authentication_decorator
 @csrf_exempt
 def auth_failure_lab3(request):
